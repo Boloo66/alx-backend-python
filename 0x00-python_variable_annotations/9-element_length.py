@@ -9,6 +9,6 @@ Si = List[Ti]
 
 
 def element_length(lst: Iterable[Sequence]) -> Si:
-    '''I annotated this function 
+    '''I annotated this function
     '''
     return [(i, len(i)) for i in lst]
