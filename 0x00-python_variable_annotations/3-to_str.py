@@ -6,4 +6,4 @@
 def to_str(n: float) -> str:
     '''Return string rep of a float
     '''
-    return (str(n))
+    return str(n)
