@@ -3,10 +3,7 @@
 '''
 
 
-from math import floor
-
-
 def floor(n: float) -> int:
     '''Returns floor value of n float type
     '''
-    return(floor(n))
+    return(int(n))
