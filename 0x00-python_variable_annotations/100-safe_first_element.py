@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 '''Annonate this module
 '''
-from typing import Any, Sequence
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: Sequence[Any]) -> Any:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     ''' Using Any annotation
     '''
     if lst:
