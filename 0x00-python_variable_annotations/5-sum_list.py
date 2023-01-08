@@ -1,4 +1,4 @@
-#!/usr/bun/env python3
+#!/usr/bin/env python3
 '''This module sums a list in an func
 '''
 from typing import List
